@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+html{
+	font-family:"微软雅黑";
+}
+
+dl, ol, ul, li
+{
+	list-style:none;
+}
+
+a
+{
+	text-decoration:none;
+    outline:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a,img
+{
+	border:none;
+}
+body {
+	font-family:"微软雅黑";
+	background:#000
+}
+
+.banner{
+	width:100%;
+	height:100%；
+	}
+
+.procedure{
+	width:100%;
+	height:57px;
+}
+
+.procedure-div-left
+{
+	margin:0;
+	width:50%;
+	height:57px;
+	padding:0;
+	background:#141414;
+	position:relative;
+	float:left;
+}
+
+.procedure-div-left img
+{
+	float:right;
+}
+
+.procedure-div-right
+{
+	margin:0;
+	width:50%;
+	height:57px;
+	padding:0;
+	position:relative;
+	float:left;
+	background:#000000;
+}	
+
+.order{
+	width:100%;
+	height:800px;
+	background:#FFF;
+}
+
+.orderCar{
+	width:400px;
+	margin:0 auto;
+}
+
+.orderCarTitle1{
+	text-align:center;
+	border-bottom:solid #999 thin;
+	color:#343434;
+	font-weight:600;
+	font-size:25px;
+	letter-spacing:5px;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+
+.orderCarName{
+	text-align:center;
+	font-size:15px;
+	font-weight:600;
+	letter-spacing:2px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#666;
+}
+
+.orderCar a{
+	color:#999;
+}
+.orderCarStore{
+	display:block;
+	text-align:center;
+}
+.orderCarStore:hover{
+	text-decoration:underline;
+}
+
+.orderCarImg{
+	width:400px;
+	height:227px;
+}
+
+.orderInfo{
+	width:400px;
+	margin:0 auto;
+}
+
+.orderCarTitle2{
+	text-align:center;
+	color:#343434;
+	font-weight:600;
+	font-size:25px;
+	letter-spacing:5px;
+	padding-top:40px;
+	padding-bottom:10px;
+
+}
+
+.orderNoty{
+	border-bottom:solid thin #999;
+	text-align:center;
+	font-size:15px;
+	color:#999;
+}
+
+.orderBut {
+	width:400px;
+	height:50px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.orderBut a{
+	display:block;
+	width:200px;
+	height:30px;
+	background:#900;
+}
+.personalInfo{
+	width:400px;
+	padding-left:65px;
+	font-size:16px;
+	font-weight:600;
+	color:#343434;
+}
+.personalInfo span{
+	color:#F00;
+}
+
+.buyerName{
+
+	width:200px;
+	height:30px;
+	margin-top:30px;
+	margin-bottom:20px;
+	outline:none;
+	border: solid #ddd thin;
+	font-size:20px;
+}
+
+.phoneNum
+{
+	
+	width:200px;;
+	height:30px;
+	margin-top:20px;
+	outline:none;
+	border: solid #ddd thin;
+	font-size:20px;
+}
+
+.place
+{
+	margin-top:20px;
+}
+
+.place select
+{
+	width:100px;
+	height:20px;
+	font-size:16px;
+}
+
+.orderBut
+{
+	padding-top:40px;
+}
+
+.orderBut p
+{
+	margin-bottom:10px;
+	color:#343434;
+	font-weight:600;
+	font-size:22px;
+	text-align: center;
+
+}
+.orderBut a
+{
+	display:block;
+	padding:10px 30px 3px 30px;
+	text-align:center;
+	color:#FFF;
+	margin-left:68px;
+	font-size: 22px;
+}
+
+.orderBut a:hover
+{
+	text-decoration:none;
+	background: #F00;
+}
+.footer{
+	width:100%;
+	height:50px;
+	background:#999;
+}
